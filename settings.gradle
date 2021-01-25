@@ -1,0 +1,9 @@
+rootProject.name = 'rfcemailvalidator'
+
+include ':rfcemailvalidatorlib'
+include ':comparevalidators'
+include ':examplegenerator'
+
+project(':rfcemailvalidatorlib').projectDir = file('sources/rfcemailvalidatorlib/')
+project(':comparevalidators').projectDir = file('tools/comparevalidators/')
+project(':examplegenerator').projectDir = file('tools/examplegenerator/')
