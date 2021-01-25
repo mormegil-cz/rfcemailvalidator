@@ -22,9 +22,9 @@ The table shown below was generated using a program in this repository (with a f
 * _5322_: A random regex I found [on StackOverflow](https://stackoverflow.com/a/53382093/304138), claiming to validate according to RFC 5322.
 * _CoVa_: [Apache Commons](https://commons.apache.org/proper/commons-validator/) implementation in [`org.apache.commons.validator.routines.EmailValidator`](https://commons.apache.org/proper/commons-validator/apidocs/org/apache/commons/validator/routines/EmailValidator.html).
 * _EV4j_: Validator from [egulias/EmailValidator4J](https://github.com/egulias/EmailValidator4J).
-** _EV4j!_: The same validator configured as more strict (with `WarningsNotAllowed`).
+    * _EV4j!_: The same validator configured as more strict (with `WarningsNotAllowed`).
 * _2822_: Validator from [bbottema/email-rfc2822-validator](https://github.com/bbottema/email-rfc2822-validator).
-** _2822+_: The same validator configured as more lax (with `EmailAddressCriteria.RFC_COMPLIANT`).
+    * _2822+_: The same validator configured as more lax (with `EmailAddressCriteria.RFC_COMPLIANT`).
 * _852V_: This validator.
 
 | String | Java | HTML5 | 5322 | CoVa | EV4j | EV4j! | 2822 | 2822+ | 852V |
